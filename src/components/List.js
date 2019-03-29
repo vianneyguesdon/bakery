@@ -5,7 +5,7 @@ class List extends React.Component {
     return(
       <div className="row">
         <div className="col">
-          
+          {this.props.renderList}
         </div>
       </div>
     )

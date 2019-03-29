@@ -21,10 +21,8 @@ class Add extends React.Component {
             value = {this.props.price}
             onChange={(val) => this.props.onChangePrice(val)}
           />
-          <p>{this.props.value}</p>
           <p>{this.props.price} €</p>
           <button onClick={() => this.props.handleSubmit(this.props.value)}>Validate</button>
-          <p>{this.state}</p>
         </div>
       </div>
     );
